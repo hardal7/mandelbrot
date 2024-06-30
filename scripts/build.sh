@@ -16,7 +16,3 @@ gcc -shared -o libglad.so glad.o
 mv libglad.so ../
 rm glad.o
 cd ../../
-
-cmake -B build
-cmake --build build
-./build/mandelbrot
